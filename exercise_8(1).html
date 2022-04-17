@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+  <script src="script2.js" charset="utf-8"></script>
+   <link rel="stylesheet" href="./style.css">
+   <title>友谊测试</title>
+   <body>
+     <h1>让我们一起来猜猜看！</h1>
+     <form>
+  <fieldset>
+    <legend>你的好朋友的喜好</legend>
+    爱吃的东西：<input type="text" />
+    喜欢的颜色：<input type="text" />
+  </fieldset>
+</form>
+<fieldset>
+<h3 style="color: LightSteelBlue; text-align:center;">选择题（可以单选/多选，10分/题）</h3>
+<div id="grey">
+<fieldset class ="question">
+<p id="1">1.如果你的好朋友妮妮叫你来玩超真实过家家，你会怎么选择？</p>
+<label><input type="radio" name="answer1" value="10"/>陪她一起来玩吧</label>
+<br />
+<label ><input type="radio" name="answer1"  value="10"/>和她说：“妮妮，和我一起踢足球吧。”</label>
+<br/>
+<label ><input type="radio" name="answer1" value="0"/>转身离开</label>
+<br/>
+<label ><input type="radio" name="answer1"  value="10"/>假装今天不舒服拒绝她。</label>
+<br/>
+</fieldset>
+<fieldset class ="question">
+<p id="2">2.如果你有一盒小饼干，然后遇到了你的朋友们，你会怎么做？</p>
+<label><input type="radio" name="answer2" value="0" />把小饼干一把全倒在自己嘴里，10秒钟内吃光</label>
+<br />
+<label id="2"><input type="radio" name="answer2" value="0" />拿出饼干给朋友们炫耀却不打开它<label>
+<br/>
+<label><input type="radio" name="answer2" value="20"/>拿出饼干给大家分享</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="3">3.妈妈让你照顾你的小妹妹，可是你最喜欢的大姐姐叫你出去玩，而你的朋友阿呆正好来你家做客，你会怎么做？</p>
+<label id="3"><input type="radio" name="answer3" value="0" />把妹妹留在家让阿呆照顾，自己去和大姐姐玩。</label>
+<br />
+<label><input type="radio" name="answer3" value="10"/>和阿呆一起照顾妹妹。</label>
+<label><input type="radio" name="answer3" value="0"/>和阿呆一起去和大姐姐玩，把妹妹扔在家里。</label>
+<label><input type="radio" name="answer3" value="10"/>拒绝大姐姐的邀请并把阿呆赶走，一个人照顾妹妹。</label>
+</fieldset>
+<button type="button" onclick="coreCount()" >得分</button>
+<img src="C:\Users\19440\Documents\创意交互设计与技术\GitHub\creative_interaction_design_spring-2022\biaitong.github.io\R-C.gif">
+</html>
