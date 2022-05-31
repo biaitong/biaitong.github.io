@@ -1,6 +1,6 @@
 body{
   font-family: 'Poppins', sans-serlf;
-   color:	#0044BB;
+   color:	#00AA88;
 .navbar:
     /* 初始化 取消内外边距 */
     margin: 0;
@@ -162,6 +162,7 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+.text-shadow1{text-shadow: 5px 5px 5px #FF8888;
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
