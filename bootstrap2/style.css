@@ -170,3 +170,25 @@ body{
         width: 100%;
     }
 }
+.btn-primary{
+  background-color: #CCEEFF
+  border: 1px solid #5599FF;
+}
+.btn-primary:hover{
+  background-color: #00AA88;
+}
+/*--Media Queries --*/
+@meida (max-width: 992px) {
+	
+  }
+@media (max-width: 768px) {
+  
+  }
+@media (max-width: 576px) {
+  
+  }
+.footer{
+  background-color: #4682B4
+  font-weight: light;
+	color: #B0E0E6;
+}
