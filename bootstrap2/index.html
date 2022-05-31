@@ -33,7 +33,7 @@
       <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a class="nav-link demo" rel="nofollow" data-method="post" href="index2.html">城市记忆</a></li>
           <li class="nav-item active"><a class="nav-link" href="index3.html">城市角落</a></li>
-          <li class="nav-item active"><a class="nav-link" href="https://mailblast.gitbook.io/faq">城市传说</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">城市传说</a></li>
         <li class="nav-item active"><a class="nav-link" href="/users/sign_in">特搜参考指南</a></li>
           <li class="nav-item"><a class="nav-link" href="/users/sign_up">关于</a></li>
       </ul>
@@ -57,8 +57,8 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="img/background1.png" alt="First slide">
       <div class="carousel-caption">
-        <h1 class="text-justify">欢迎加入特别搜索计划</h1>
-        <p class="opacity-50;display-5">不完全特别搜索计划之咩咩城！更多未知等你探索~</p>
+        <h1 class="text-center">欢迎加入特别搜索计划</h1>
+        <p class="opacity-50 display-5">不完全特别搜索计划之咩咩城！更多未知等你探索~</p>
         <a href="index1.html">
     <button type="button" class="btn btn-outline-light btn-lg border-info"><strong>即刻成为特搜专员</strong></button>
 </a>
@@ -119,23 +119,53 @@
     margin: 30px;
   }
     </style>
-      <img class="demo1" src="img/中秋1987.jpg"></img>
-      <h3>城市记忆</h3>
-      </div>
-    <div class="row text-center">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-      <img class="demo1" src="img/士多.jpeg"></img>
-      <h3 >城市角落</h3>
-      </div>
-    <div class="row text-center">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-      <img class="demo1" src="img/传说.jpg" ></img>
-      <h3>城市传说</h3>
-      </div>
+<!--缩略进入 -->
+     <div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="img/中秋1987.jpg"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>城市的记忆</h3>
+                <p>举手投足间，记忆影响了他很多</p>
+                <p>
+                    <a href="index1.html" class="btn btn-primary" role="button">
+                      去探索
+                    </a>
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-</div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="img/士多.jpeg"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>城市的角落</h3>
+                <p>漫步街巷，转角遇到“爱”。</p>
+                <p>
+                    <a href="index3.html" class="btn btn-primary" role="button">
+                     去漫步
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="/wp-content/uploads/2014/06/kittens.jpg"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>城市传说</h3>
+                <p>一些口口相传，一些神秘诡异</p>
+                <p>
+                    <a href="index4.html" class="btn btn-primary" role="button">
+                     去...？
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
 <!-- 返回顶部 -->
 </head>
 <body style="height:2000px;">
@@ -226,19 +256,22 @@ box.onclick = function(){
 
 
 <!-- 景色展示 -->
-<div class="page-header">
-<h1 class="text-shadow1">木棉花开</h1>
-</div>
 <div class="container-fluid">
-   <div class="row text-center" >
-      <div class="col-xs-8 col-sm-6">
-        <h5>1982年时被七十多万的广州市民票选并在广州市人民政府的决定下，确定为广州市的市花。作为广州市的市花，木棉花象征着广州那蓬勃向上的精神，也在不断激励着人们奋发努力的拼搏着。在广州，随处都可以见到木棉花的身影。</h5>
-<img id="myImg" src="img/花城木棉花.jpg" alt="Northern Lights, Norway" width="400" height="712">
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">×</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
+  <div class="row">
+    <div class="col-lg-6">
+<h1 class="text-shadow1">木棉花开</h1>
+      <h5>1982年时被七十多万的广州市民票选并在广州市人民政府的决定下，确定为广州市的市花。作为广州市的市花，木棉花象征着广州那蓬勃向上的精神，也在不断激励着人们奋发努力的拼搏着。在广州，随处都可以见到木棉花的身影。</h5>
+    </div>
+  </div>
+</div>
+<div class="col-lg-6">
+  <img id="myImg" src="img/花城木棉花.jpg" alt="Northern Lights, Norway" width="400" height="712">
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">×</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
 </div>
 <script>
 // 获取模态窗口
@@ -269,6 +302,7 @@ span.onclick = function() {
   <div class="container-fluid">
     <div class="row text-center">
       <div class="col-md-4">
+        <hr class="light">
         <img src="img/logob.png">
         <hr class="light">
         <p><small>疫情退散</small></p>
