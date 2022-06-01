@@ -192,3 +192,10 @@ body{
   font-weight: light;
 	color: #B0E0E6;
 }
+a{
+            display: block;
+            width: 400px;
+        }
+        a img{
+            width: 100%;
+        }	
