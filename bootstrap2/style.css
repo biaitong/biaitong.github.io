@@ -166,11 +166,6 @@ body{
 @media (max-width: 576px) {
   
   }
-.footer{
-  background-color: #4682B4;
-  font-weight: light;
-	color: #B0E0E6;
-}
 a{
             display: block;
             width: 400px;
@@ -178,3 +173,7 @@ a{
         a img{
             width: 100%;
         }	
+.nav-item active{
+  font-family: MingLiU;
+   color: #F0FFF0;
+}
